@@ -7,7 +7,7 @@ tomcat 10.1.8
 
 this is simple demo restAPI which retrieves course details 
 
-springboot provides 5 different types of logging
+1) springboot provides 5 different types of logging
 1. TRACE
 2. DEBUG 
 3. INFO 
@@ -17,3 +17,9 @@ springboot provides 5 different types of logging
 
 to set the logging level go to application.properties file and set  
 logging.level.org.springframework=debug
+
+2) To create different profiles like dev, QA, stage, prod you can create following files and set the properties accordingly
+application-dev.properties  
+application-qa.properties  
+application-stage.properties  
+application-prod.properties  
