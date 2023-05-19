@@ -23,3 +23,7 @@ application-dev.properties
 application-qa.properties  
 application-stage.properties  
 application-prod.properties  
+
+and to set the current active profile  
+go to application.properties and set  
+spring.profiles.active=prod
