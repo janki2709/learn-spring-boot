@@ -15,5 +15,5 @@ springboot provides 5 different types of logging
 5. ERROR
 6. OFF - turn off the logging
 
-to set the logging level go to application.properties file and set
+to set the logging level go to application.properties file and set  
 logging.level.org.springframework=debug
